@@ -39,4 +39,6 @@ rebase.1
 rebase.2
 rebase.3
 
+## cherry-pick
+
 # 5. 标签管理
