@@ -15,9 +15,35 @@
 # 3. 远程仓库
 
 3.1
+3.1.1
+3.1.2
 3.2
 3.3
 
 # 4. 分支管理
+
+4.1.cherry-pick
+4.1.1
+4.1.2
+4.1.2.cherry-pick
+4.2
+4.3
+4.3.1.cherry-pick
+4.3.2
+4.4
+4.5
+4.6
+
+## rebase
+
+rebase.1
+rebase.2
+rebase.3
+
+## cherry-pick
+
+cherry-pick.1
+cherry-pick.2
+cherry-pick.3
 
 # 5. 标签管理
