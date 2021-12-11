@@ -1,0 +1,18 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "editor.fontSize": 18,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "markdownlint.config": {
+        "MD025": false
+    },
+    "python.defaultInterpreterPath": "d:\\Program Files\\VirtualEnvPath\\DataAnalyEnv\\Scripts\\python.exe",
+    "python.formatting.provider": "yapf",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "d:\\Program Files\\VirtualEnvPath\\DataAnalyEnv\\Scripts\\python.exe",
+    "workbench.colorTheme": "Visual Studio Light"
+}
