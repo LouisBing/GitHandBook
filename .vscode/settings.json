@@ -1,18 +1,101 @@
 {
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
     },
+    "diffEditor.renderSideBySide": false,
     "editor.fontSize": 18,
     "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    // "settingsSync.ignoredSettings": [
+    //     "python.venvPath",
+    //     "python.venvFolders",
+    //     "python.pythonPath"
+    // ],
+    "extensions.ignoreRecommendations": false,
+    "files.associations": {},
     "files.autoSave": "afterDelay",
-    "markdownlint.config": {
-        "MD025": false
+    "files.exclude": {
+        "**/*.tmp": true,
+        "**/~*.*": true
     },
-    "python.defaultInterpreterPath": "d:\\Program Files\\VirtualEnvPath\\DataAnalyEnv\\Scripts\\python.exe",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "gitlens.views.repositories.branches.layout": "list",
+    "gitlens.views.repositories.files.layout": "list",
+    "jupyter.interactiveWindowMode": "single",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "leetcode.defaultLanguage": "python3",
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.hint.commentDescription": false,
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.workspaceFolder": "C:\\Users\\Bing\\.leetcode",
+    "markdownlint.config": {
+        "MD009": false,
+        "MD025": false,
+        "MD047": false
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUndefinedVariable": "none"
+    },
+    "python.analysis.typeCheckingMode": "off",
+    "python.autoComplete.addBrackets": true,
+    "python.defaultInterpreterPath": "D:\\Program Files\\VirtualEnvPath\\DataAnalyEnv\\Scripts\\python.exe",
     "python.formatting.provider": "yapf",
     "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E303,E401,E402,E501,E722,E265,E231,E226,E203,E225,E712,F401,F405,F403,W"
+    ],
     "python.linting.flake8Enabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=all",
+        "--enable=F,E",
+        "--disable=abstract-class-instantiated"
+    ],
     "python.linting.pylintEnabled": false,
-    "python.pythonPath": "d:\\Program Files\\VirtualEnvPath\\DataAnalyEnv\\Scripts\\python.exe",
-    "workbench.colorTheme": "Visual Studio Light"
+    "python.pythonPath": "D:\\Program Files\\VirtualEnvPath\\DataAnalyEnv\\Scripts\\python.exe",
+    "python.showStartPage": false,
+    "python.venvFolders": [
+        "DataAnalyEnv"
+    ],
+    "python.venvPath": "D:\\Program Files\\VirtualEnvPath",
+    "security.workspace.trust.untrustedFiles": "open",
+    "sync.gist": "5a7cf851f3b2880cb7ce7115ab58eebe",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    // "http.proxy": "http://proxy.cmcc:8080",
+    // "http.proxyStrictSSL": false,
+    "terminal.integrated.rendererType": "dom",
+    "vscode-md.options.counter.enable": false,
+    "vscode-md.options.mode": "ir",
+    "vscode-md.theme.code": "colorful",
+    "vscode-md.theme.content": "light",
+    "vscode-md.theme.global": "classic",
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.menuBarVisibility": "compact",
+    "window.openFilesInNewWindow": "on",
+    "window.restoreFullscreen": true,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Brackets Light Pro Bold",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.openSideBySideDirection": "down",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.md": "default"
+    },
+    "workbench.iconTheme": "office-material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons"
 }
