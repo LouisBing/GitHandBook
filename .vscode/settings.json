@@ -2,9 +2,14 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
     },
-    "editor.fontSize": 18,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500",
     "editor.minimap.enabled": false,
+    "editor.wordSeparators": "`~%@^&*()=+[{]}\\|;:'\",.<>/?；：\"，、。“”《》（）【】",
+    "editor.wordWrap": "on",
     "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
     "markdownlint.config": {
         "MD025": false
     },
@@ -14,5 +19,12 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
     "python.pythonPath": "d:\\Program Files\\VirtualEnvPath\\DataAnalyEnv\\Scripts\\python.exe",
-    "workbench.colorTheme": "Visual Studio Light"
+    "vscode-md.options.counter.enable": false,
+    "vscode-md.options.mode": "ir",
+    "vscode-md.theme.code": "colorful",
+    "vscode-md.theme.content": "light",
+    "vscode-md.theme.global": "classic",
+    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.statusBar.visible": true
 }
