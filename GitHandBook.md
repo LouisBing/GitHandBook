@@ -34,16 +34,18 @@
 4.5
 4.6
 
-## rebase
+## 4.1. rebase
 
 rebase.1
 rebase.2
 rebase.3
 
-## cherry-pick
+## 4.2. cherry-pick
 
 cherry-pick.1
 cherry-pick.2
 cherry-pick.3
 
 # 5. 标签管理
+
+# 6. git多账号
